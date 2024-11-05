@@ -6,9 +6,11 @@
 
 :root {
   --dark8: #141414;
+  --dark20: #333333;
   --dark40: #666666;
   --dark15: #262626;
   --grey50: #7E7E81;
+  --grey60: #98989A;
   --primary: #22C55E;
   --secondary: #1A1A1A;
   --foreground: #FFF;
@@ -17,9 +19,11 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --dark8: #141414;
+    --dark20: #333333;
     --dark40: #666666;
     --dark15: #262626;
     --grey50: #7E7E81;
+    --grey60: #98989A;
     --primary: #22C55E;
     --secondary: #1A1A1A;
     --foreground: #FFF;

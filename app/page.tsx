@@ -1,3 +1,11 @@
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
-  return <h1 className="text-primary">Hello world</h1>;
+  return (
+    <>
+      <Header />
+      <HeroSection />
+    </>
+  );
 }

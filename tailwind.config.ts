@@ -10,9 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         dark8: "var(--dark8)",
+        dark20: "var(--dark20)",
         dark40: "var(--dark40)",
         dark15: "var(--dark15)",
         grey50: "var(--grey50)",
+        grey60: "var(--grey60)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         foreground: "var(--foreground)",
