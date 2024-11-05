@@ -9,9 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        dark8: "var(--dark8)",
+        dark40: "var(--dark40)",
+        dark15: "var(--dark15)",
+        grey50: "var(--grey50)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'kumbh': ['var(--font-kumbh-sans)', 'sans-serif'],
+      }
     },
   },
   plugins: [],
