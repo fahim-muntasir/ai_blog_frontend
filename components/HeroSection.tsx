@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="text-white min-h-screen">
+    <section className="text-white">
       <div className="text-center mx-auto grid grid-cols-12">
         <div className="col-span-12 lg:col-span-7">
           <div className="px-6 md:px-10 lg:px-0 lg:flex lg:justify-end border-b border-dark20 py-16 md:py-20 lg:py-20 lg:pr-20">
@@ -160,7 +160,7 @@ export default function HeroSection() {
             <Image
               className="mb-5 md:mb-8 w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px]"
               src="/images/icon2.svg"
-              alt="icon 1"
+              alt="icon 2"
               width={50}
               height={50}
               quality={100}
@@ -195,7 +195,7 @@ export default function HeroSection() {
             <Image
               className="mb-5 md:mb-8 w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px]"
               src="/images/icon3.svg"
-              alt="icon 1"
+              alt="icon 3"
               width={50}
               height={50}
               quality={100}

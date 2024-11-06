@@ -21,6 +21,9 @@ const config: Config = {
       },
       fontFamily: {
         'kumbh': ['var(--font-kumbh-sans)', 'sans-serif'],
+      },
+      maxWidth: {
+        'custom': '1200px',
       }
     },
   },
