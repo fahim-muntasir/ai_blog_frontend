@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./common/Button";
 
 export default function HeroSection() {
   return (
@@ -99,23 +100,7 @@ export default function HeroSection() {
             <p className="text-grey60 mb-8 text-sm md:text-base">
               Over 1,000 articles on emerging tech trends and breakthroughs.
             </p>
-            <button className="flex items-center gap-1 text-grey60 border border-dark20 w-full md:w-[250px] justify-center md:px-5 py-3 rounded-xl text-sm md:text-base">
-              Explore Resources
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-4 md:size-6 text-primary"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                />
-              </svg>
-            </button>
+            <Button text="Explore Resources" />
           </div>
         </div>
       </div>

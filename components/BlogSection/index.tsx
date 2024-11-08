@@ -2,6 +2,7 @@
 import { useState } from "react";
 import BlogCard from "./BlogCard";
 import BlogCategories from "./BlogCategories";
+import Button from "../common/Button";
 
 type BlogPost = {
   avatarSrc: string;
@@ -62,9 +63,10 @@ export default function BlogSection() {
   ];
 
   // Filter blog posts based on selected category
-  const filteredPosts = selectedCategory === "All"
-    ? blogPosts
-    : blogPosts.filter((post) => post.category === selectedCategory);
+  const filteredPosts =
+    selectedCategory === "All"
+      ? blogPosts
+      : blogPosts.filter((post) => post.category === selectedCategory);
 
   return (
     <section>
@@ -78,23 +80,7 @@ export default function BlogSection() {
               Explore FutureTech&apos;s In-Depth Blog Posts
             </h3>
           </div>
-          <button className="flex items-center gap-1 text-grey60 border border-dark20 w-full md:w-[250px] justify-center md:px-5 py-3 rounded-xl text-sm md:text-base">
-            View All Blogs
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-4 md:size-6 text-primary"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
-            </svg>
-          </button>
+          <Button text="View All Blogs" />
         </div>
       </div>
 
