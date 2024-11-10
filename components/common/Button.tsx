@@ -1,6 +1,14 @@
-export default function Button({ text }: { text: string }) {
+export default function Button({
+  text,
+  classes,
+}: {
+  text: string;
+  classes?: string;
+}) {
   return (
-    <button className="flex items-center gap-1 text-grey60 border border-dark20 w-full md:w-[250px] justify-center md:px-5 py-3 rounded-xl text-sm md:text-base">
+    <button
+      className={`flex items-center gap-1 text-grey60 border border-dark20 w-full md:w-[250px] justify-center md:px-5 py-3 rounded-xl text-sm md:text-base ${classes}`}
+    >
       {text}
       <svg
         xmlns="http://www.w3.org/2000/svg"
