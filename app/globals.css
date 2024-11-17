@@ -6,6 +6,7 @@
 
 :root {
   --dark8: #141414;
+  --dark10: #1A1A1A;
   --dark20: #333333;
   --dark40: #666666;
   --dark15: #262626;
@@ -19,6 +20,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --dark8: #141414;
+    --dark10: #1A1A1A;
     --dark20: #333333;
     --dark40: #666666;
     --dark15: #262626;
