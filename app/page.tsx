@@ -4,6 +4,7 @@ import FeaturesSection from "@/components/FeturesSection";
 import BlogSection from "@/components/BlogSection";
 import ResourceSection from "@/components/ResourceSection";
 import ReviewSection from "@/components/ReviewSection"
+import RevolutionSection from "@/components/RevolutionSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BlogSection />
       <ResourceSection />
       <ReviewSection />
+      <RevolutionSection />
     </>
   );
 }
