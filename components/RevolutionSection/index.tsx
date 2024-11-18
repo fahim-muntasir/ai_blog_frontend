@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function RevolutionSection() {
   return (
     <section>
-      <div className="bg-secondary border-b border-dark20 py-10 md:py-16 lg:20 border-t">
+      <div className="bg-secondary border-b border-dark20 py-10 md:py-16 lg:20">
         <div className="container mx-auto px-6 md:px-0 font-medium flex  items-center mb-10 md:mb-16 lg:mb-20 gap-16">
           <Image
             src="/images/logo.svg"

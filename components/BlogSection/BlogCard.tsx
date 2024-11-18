@@ -39,7 +39,7 @@ export default function BlogCard({
 
         {/* this button is for mobile device  */}
         <div className="block md:hidden col-span-1 md:col-start-3 md:row-start-1">
-          <Button text="View All Blogs" />
+          <Button text="View Blogs" />
         </div>
 
         {/* Content Section */}
@@ -108,7 +108,7 @@ export default function BlogCard({
 
         {/* Button Section */}
         <div className="hidden md:block md:col-span-2 lg:col-span-1">
-          <Button text="View All Blogs" />
+          <Button text="View Blogs" />
         </div>
       </div>
     </div>

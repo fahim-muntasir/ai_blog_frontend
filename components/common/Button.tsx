@@ -7,7 +7,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`flex items-center gap-1 text-grey60 border border-dark20 w-full md:w-[250px] justify-center md:px-5 py-3 rounded-xl text-sm md:text-base ${classes}`}
+      className={`flex items-center gap-1 text-grey60 border border-dark20 justify-center px-4 py-3 rounded-xl text-sm md:text-base w-auto ${classes}`}
     >
       {text}
       <svg

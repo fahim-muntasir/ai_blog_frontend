@@ -5,6 +5,7 @@ import BlogSection from "@/components/BlogSection";
 import ResourceSection from "@/components/ResourceSection";
 import ReviewSection from "@/components/ReviewSection"
 import RevolutionSection from "@/components/RevolutionSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ResourceSection />
       <ReviewSection />
       <RevolutionSection />
+      <Footer />
     </>
   );
 }
